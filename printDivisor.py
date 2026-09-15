@@ -10,5 +10,5 @@ getNumber = int(input("Provide a number: "))
 
 while i < getNumber:
    if getNumber % i == 0:
-      print ' divisor ' , i
+      print(' divisor ', i)
    i = i + 1

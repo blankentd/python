@@ -9,7 +9,7 @@ guess = 0
 randomNum = random.randint(2, 6)
 
 while guess != randomNum and guess != "exit":
-    guess = raw_input("Please type a number: ")
+    guess = input("Please type a number: ")
 
     if guess == "exit":
         break    

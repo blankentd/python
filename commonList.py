@@ -11,7 +11,7 @@ def common_member(listOne, listTwo): # devines a function with both lists as arg
     a_set = set(listOne) # Create a set consisting of the elements in the listOne list
     b_set = set(listTwo) # Create a set consisting of the elements in the listTwo list
     if (a_set & b_set): # If both sets exist 
-        print list(a_set & b_set) # convert set to a list to eliminate set in output 
+        print(list(a_set & b_set)) # convert set to a list to eliminate set in output
     else:
         print("no common elements") 
 

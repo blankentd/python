@@ -24,7 +24,7 @@ print("")
 answer1 = 0
 answer2 = 0
 
-while 2answer1 > 5 or answer1 < 1:
+while answer1 > 5 or answer1 < 1:
    try:
       answer1 = int(input("Player 1 please type 1 for rock, 2 for paper, 3 for scissors, 4 for lizard, 5 for Spock: "))
       print("")
